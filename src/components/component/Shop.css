@@ -1,0 +1,12 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.item-container{
+    border-right: 1px solid lightblue;
+    margin-right: 5px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
